@@ -1,0 +1,201 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|SnackMan]
+Icon1=SnackMan.exe
+Title1=SnackMan
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Logicon\Portofio\SnackMan
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+snackman.bmp=
+presents.bmp=
+logicon.bmp=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Logicon\DX Animation Window Cntrl\Logicon_DXAnimCntrl.ocx=
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+c:\logicon\snackman\bonusvalue.wav=
+c:\logicon\snackman\eatdot.wav=
+c:\logicon\snackman\eatghost.wav=
+c:\logicon\snackman\eatpowerup.wav=
+c:\logicon\snackman\eattreat.wav=
+c:\logicon\snackman\gameover.wav=
+c:\logicon\snackman\gamestartintro.wav=
+c:\logicon\snackman\levelup.wav=
+c:\logicon\snackman\playerstartintro.wav=
+c:\logicon\snackman\snackman.wav=
+c:\logicon\snackman\snackmandie.wav=
+c:\logicon\snackman\snackmanpowerup.wav=
+c:\logicon\snackman\treatbounce.wav=
+c:\logicon\snackman\wraith.wav=
+c:\logicon\snackman\animation.bmp=
+c:\logicon\snackman\map.bmp=
+c:\logicon\snackman\static.bmp=
+c:\logicon\snackman\wraithdeath.wav=
+c:\logicon\snackman\presents.gif=
+c:\logicon\snackman\logicon.gif=
+c:\logicon\snackman\snackman.gif=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Logicon\SnackMan\SnackMan.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Logicon\SnackMan\BonusValue.wav=Yes
+C:\Logicon\SnackMan\EatDot.wav=Yes
+C:\Logicon\SnackMan\EatGhost.wav=Yes
+C:\Logicon\SnackMan\EatPowerUp.wav=Yes
+C:\Logicon\SnackMan\EatTreat.wav=Yes
+C:\Logicon\SnackMan\GameOver.wav=Yes
+C:\Logicon\SnackMan\GameStartIntro.wav=Yes
+C:\Logicon\SnackMan\LevelUp.wav=Yes
+C:\Logicon\SnackMan\PlayerStartIntro.wav=Yes
+C:\Logicon\SnackMan\SnackMan.wav=Yes
+C:\Logicon\SnackMan\SnackManDie.wav=Yes
+C:\Logicon\SnackMan\SnackManPowerUp.wav=Yes
+C:\Logicon\SnackMan\TreatBounce.wav=Yes
+C:\Logicon\SnackMan\Wraith.wav=Yes
+C:\Logicon\SnackMan\Animation.bmp=Yes
+C:\Logicon\SnackMan\Map.bmp=Yes
+C:\Logicon\SnackMan\Static.bmp=Yes
+C:\Logicon\SnackMan\WraithDeath.wav=Yes
+C:\Logicon\SnackMan\Presents.gif=Yes
+C:\Logicon\SnackMan\Logicon.gif=Yes
+C:\Logicon\SnackMan\SnackMan.gif=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Logicon\SnackMan\SnackMan.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Logicon\DX Animation Window Cntrl\Logicon_DXAnimCntrl.ocx=$(WinSysPath)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Logicon\SnackMan\BonusValue.wav=$(AppPath)
+C:\Logicon\SnackMan\EatDot.wav=$(AppPath)
+C:\Logicon\SnackMan\EatGhost.wav=$(AppPath)
+C:\Logicon\SnackMan\EatPowerUp.wav=$(AppPath)
+C:\Logicon\SnackMan\EatTreat.wav=$(AppPath)
+C:\Logicon\SnackMan\GameOver.wav=$(AppPath)
+C:\Logicon\SnackMan\GameStartIntro.wav=$(AppPath)
+C:\Logicon\SnackMan\LevelUp.wav=$(AppPath)
+C:\Logicon\SnackMan\PlayerStartIntro.wav=$(AppPath)
+C:\Logicon\SnackMan\SnackMan.wav=$(AppPath)
+C:\Logicon\SnackMan\SnackManDie.wav=$(AppPath)
+C:\Logicon\SnackMan\SnackManPowerUp.wav=$(AppPath)
+C:\Logicon\SnackMan\TreatBounce.wav=$(AppPath)
+C:\Logicon\SnackMan\Wraith.wav=$(AppPath)
+C:\Logicon\SnackMan\Animation.bmp=$(AppPath)
+C:\Logicon\SnackMan\Logicon.bmp=$(AppPath)
+C:\Logicon\SnackMan\Map.bmp=$(AppPath)
+C:\Logicon\SnackMan\Presents.bmp=$(AppPath)
+C:\Logicon\SnackMan\SnackMan.bmp=$(AppPath)
+C:\Logicon\SnackMan\Static.bmp=$(AppPath)
+C:\Logicon\SnackMan\WraithDeath.wav=$(AppPath)
+C:\Logicon\SnackMan\Presents.gif=$(AppPath)
+C:\Logicon\SnackMan\Logicon.gif=$(AppPath)
+C:\Logicon\SnackMan\SnackMan.gif=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Logicon\SnackMan\SnackMan.exe=No
+C:\Logicon\SnackMan\BonusValue.wav=No
+C:\Logicon\SnackMan\EatDot.wav=No
+C:\Logicon\SnackMan\EatGhost.wav=No
+C:\Logicon\SnackMan\EatPowerUp.wav=No
+C:\Logicon\SnackMan\EatTreat.wav=No
+C:\Logicon\SnackMan\GameOver.wav=No
+C:\Logicon\SnackMan\GameStartIntro.wav=No
+C:\Logicon\SnackMan\LevelUp.wav=No
+C:\Logicon\SnackMan\PlayerStartIntro.wav=No
+C:\Logicon\SnackMan\SnackMan.wav=No
+C:\Logicon\SnackMan\SnackManDie.wav=No
+C:\Logicon\SnackMan\SnackManPowerUp.wav=No
+C:\Logicon\SnackMan\TreatBounce.wav=No
+C:\Logicon\SnackMan\Wraith.wav=No
+C:\Logicon\SnackMan\Animation.bmp=No
+C:\Logicon\SnackMan\Logicon.bmp=No
+C:\Logicon\SnackMan\Map.bmp=No
+C:\Logicon\SnackMan\Presents.bmp=No
+C:\Logicon\SnackMan\SnackMan.bmp=No
+C:\Logicon\SnackMan\Static.bmp=No
+C:\Logicon\SnackMan\WraithDeath.wav=No
+C:\Logicon\SnackMan\Presents.gif=No
+C:\Logicon\SnackMan\Logicon.gif=No
+C:\Logicon\SnackMan\SnackMan.gif=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=SnackMan
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Logicon\Portofio\SnackMan
+ProjectFolder=C:\Logicon\SnackMan
+ServerSideCab=
+File1=C:\Logicon\Portofio\SnackMan\setup.exe
+File2=C:\Logicon\Portofio\SnackMan\Setup.Lst
+File3=C:\Logicon\Portofio\SnackMan\SnackM1.CAB
+File4=C:\Logicon\Portofio\SnackMan\SnackM2.CAB
+File5=C:\Logicon\Portofio\SnackMan\SnackM3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Logicon Enterprises
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Logicon Enterprises]
+Icon1=SnackMan.exe
+Title1=SnackMan
+StartIn1=$(AppPath)
+Key1=Icon2
